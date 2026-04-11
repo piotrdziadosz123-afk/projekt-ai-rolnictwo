@@ -89,37 +89,6 @@ Macierz pomyłek pokazuje brak błędów klasyfikacji.
 
 
 
-# Jak działa program (krok po kroku)
-
-1. Program wczytuje dane z pliku CSV
-2. Skaluje dane do zakresu 0–1
-3. Dzieli dane na:
-   - zbiór treningowy (80%)
-   - zbiór testowy (20%)
-4. Uczy perceptron na danych treningowych
-5. Testuje model na danych testowych
-6. Wyświetla wyniki
-
-
-# Eksperymenty
-
-Przeprowadzono kilka eksperymentów dla różnych parametrów:
-
-- learning_rate = 0.1, epochs = 10
-- learning_rate = 0.1, epochs = 50
-- learning_rate = 0.1, epochs = 100
-- learning_rate = 0.01, epochs = 50
-- learning_rate = 0.5, epochs = 50
-
-
-# Wyniki
-
-Model osiągnął:
-
-Accuracy = 1.00
-
-Macierz pomyłek pokazuje brak błędów klasyfikacji.
-
 # Jak uruchomić
 
 1. Otwórz terminal Git Bash
