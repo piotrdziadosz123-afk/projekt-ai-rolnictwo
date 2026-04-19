@@ -106,5 +106,5 @@ pip install pandas
 
 python -m app.run
 
-# Autor Piotr Dziadosz
-zmiana do pull requesta
+## Autor Piotr Dziadosz
+Zmiana do PR Final
