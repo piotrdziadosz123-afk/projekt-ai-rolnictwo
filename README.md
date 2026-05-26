@@ -104,7 +104,7 @@ pip install pandas
 
 4. Uruchom program:
 
-python -m app.run
+uv run python -m app.run
 
 ## Autor Piotr Dziadosz
 Zmiana do PR Final
